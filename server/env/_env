@@ -1,0 +1,21 @@
+NODE_ENV=development
+SITE=nbt
+DEBUG=NBT-PWA
+PORT=80
+WEBPACK_DEV_SERVER=false
+
+API_MASTER_FEED=https://navbharattimes.indiatimes.com/pwafeeds/appdetailsoptv7nbt_test.cms?platform=pwa&version=349&isnative=true
+
+API_ENDPOINT=http://dev.navbharattimes.indiatimes.com/api
+
+API_BASEPOINT=https://navbharattimes.indiatimes.com/pwafeeds
+
+WEBSITE_URL=http://dev.navbharattimes.indiatimes.com
+
+IMG_URL=https://toifeeds.indiatimes.com/
+
+# Apply redux-logger middleware.
+REDUX_LOGGER=true
+
+#logo
+LOGO=nbt-logo.jpg

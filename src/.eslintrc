@@ -1,0 +1,16 @@
+{
+    "extends": "plugin:react/recommended",
+    "env": {
+        "browser": true,
+        "node": false,
+        "commonjs": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "process": false,
+        "__webpack_modules__": false,
+        "__webpack_require__": false
+    }
+}
