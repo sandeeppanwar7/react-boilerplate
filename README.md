@@ -1,4 +1,3 @@
-$ cp ./server/_env ./server/.env
 $ npm install
 $ npm start
 
