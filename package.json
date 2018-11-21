@@ -1,17 +1,16 @@
 {
-  "name": "NBT",
+  "name": "React-Boilerplate",
   "version": "1.0.0",
-  "description": "NBT",
+  "description": "Reactjs, redux, code splitting, SSR, webpack",
   "engines": {
     "node": ">=7.2.0"
   },
   "scripts": {
     "start": "NODE_ENV=development SITE=nbt npm run serve",
-    "startwin": "set NODE_ENV=development&& set SITE=nbt&& npm run serve",
     "serve": "node ./server",
     "build": "node ./tasks/build",
-    "prod:build": "SITE=nbt ASSET_PATH=https://static.nbt.indiatimes.com/ npm run build && NODE_ENV=production",
-    "prod:serve": "WEBPACK_DEV_SERVER=false NODE_ENV=production SITE=nbt ASSET_PATH=http://localhost:3001/ PORT=3001 npm run serve",
+    "prod:build": "SITE=test ASSET_PATH=https://test.com/ npm run build && NODE_ENV=production",
+    "prod:serve": "WEBPACK_DEV_SERVER=false NODE_ENV=production SITE=test ASSET_PATH=http://test.com/ PORT=3001 npm run serve",
     "prettier": "prettier --write src/**/*.js",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix"
@@ -29,7 +28,7 @@
   },
   "author": "Sandeep Panwar",
   "license": "MIT",
-  "homepage": "https://www.navbharattimes.com",
+  "homepage": "https://sandeeppanwar7.blogspot.com",
   "devDependencies": {
     "async": "^2.1.5",
     "autoprefixer": "^9.3.1",
